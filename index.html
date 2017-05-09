@@ -17,25 +17,32 @@
         <div class="form-group">
           <label for="movieInput">Pick a Movie:</label>
           <select id="movieInput" class="form-control">
-            <option>The Circle</option>
-            <option>Snatched</option>
-            <option>Get Out</option>
-            <option>Power Rangers</option>
-            <option>Norman</option>
+            <option value="1">The Circle</option>
+            <option value="1">Snatched</option>
+            <option value="2">Get Out</option>
+            <option value="2">Power Rangers</option>
+            <option value="2">Norman</option>
           </select>
         </div>
         <div class="form-group">
           <label for="timeInput">Choose a Showtime:</label>
           <select id="timeInput" class="form-control">
-            <option>2:00pm</option>
-            <option>7:00pm</option>
+            <option value="2">2:00pm</option>
+            <option value="7">7:00pm</option>
           </select>
         </div>
         <div class="form-group">
           <label for="ageInput">How Old Are You?</label>
-          <input type="number">
+          <input id="ageInput" type="number">
         </div>
+      <button id="submit" type="submit" name="button">See Price</button>
       </form>
+      <div class="output">
+        <h2>Movie Price:</h2>
+        <div id="finalPrice">
+
+        </div>
+      </div>
     </div>
   </body>
 </html>
